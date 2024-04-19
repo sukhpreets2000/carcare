@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Picsart_22-06-05_11-59-14-196.png">
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Family link -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Redressed&display=swap"
+        rel="stylesheet">
+
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- scroll animattion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Carcare Website</title>
+
+</head>
+
+<body>
+    <!-- website loader -->
+
+    <div id="loader">
+
+    </div>
+
+    <!-- navbar start -->
+
+    <header id="upper">
+        <nav class=" navbar navbar-expand-sm parshai" id="navbar">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand text-warning"><img
+                        src="images/Picsart_22-06-05_11-59-14-196.png" alt="" class="img-fluid" width="12%"> Car
+                    Care</a>
+
+                <ul class="navbar-nav ml-auto ulist" id="menu">
+
+                    <li class="nav-item mx-1 list active">
+                        <a href="index.html" class="nav-link text-dark">Home</a>
+                    </li>
+                    <li class="nav-item mx-1 list">
+                        <a href="About.html" class="nav-link text-warning">About</a>
+                    </li>
+                    <li class="nav-item mx-1 list">
+                        <a href="Service.html" class="nav-link text-warning">Services</a>
+                    </li>
+                    <li class="nav-item mx-2 list">
+                        <a href="Team.html" class="nav-link text-warning">Team</a>
+                    </li>
+                    <li class="nav-item mx-2 list">
+                        <a href="#" class="nav-link text-warning">Contact</a>
+                    </li>
+                </ul>
+                <div class="mobile-navbar-btn">
+                    <i class="fa fa-bars set icons" name="bar"></i>
+                    <i class="fa fa-close set icons" name="close"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- navbar end -->
+
+    <!-- header section start -->
+
+    <section id="header" class="appoinment">
+        <div class="">
+            <div class="images">
+                <div class="container-fluid content my-auto">
+                    <h1 style="color: white; font-size: 33px;" class="head my-auto">RELIABLE <span
+                            style="color: #ffc107;" class="auto-style"></span id="element">
+
+                    </h1>
+                    <a href="About.html"><button class="btn btn-outline-warning my-4 btn-lg">About Us</button></a>
+                </div>
+
+            </div>
+            <div class="overlay">
+            </div>
+        </div>
+    </section>
+
+    <!-- header section end -->
+
+
+    <!-- Appoinment section start -->
+
+    <section class="py-5 setcolor Appoinment-section section">
+        <div class="container-fluid">
+            <h3 class="text-center text-white py-4" style="font-size:40px">BOOK AN <span
+                    style="color:#ffc107;">APPOINMENT <span class="spinner-grow spinner-grow-sm"></span></span>
+            </h3>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-group">
+                            <input type="Number" class="form-control" placeholder="Enter Number" id="num">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-group">
+                            <input type="Number" class="form-control" placeholder="Car Model" id="modal">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-groups">
+                            <label for="sel1" class="text-white">Car Brand:</label>
+                            <select class="form-control" id="sel1">
+                                <option value="Maruti Suzuki">Maruti Suzuki</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Tata">Tata</option>
+                                <option value="Kia">Kia</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Mahindra">Mahindra</option>
+                                <option value="Skoda">Skoda</option>
+                                <option value="Volkswagon">Volkswagon</option>
+                            </select>
+                            <small style="color: red;"></small>
+                        </div>
+                        <!-- <p class="text-center" style="font-size: 25px; color:#ffc107">Select Option Service</p>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="s" value="">Oil Change
+                                </label>
+                                <div id="mes" style="color: red;"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="s" value="">Wheel Alignment
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="s" value="">full service
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="s" value="">Minor service
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="s" value="">tyre Replacing
+                                </label>
+                            </div>
+                        </div> -->
+                        <button type="submit" class="btn btn-outline-warning btn-block my-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appoinment section end -->
+
+
+    <!-- about section start -->
+
+    <section class="section about-section py-5 " id="about">
+        <div class="container">
+            <div class="text-center mx-auto my-4">
+                <h2 class="py-4 ">About us</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center flex-column" data-aos="slide-up">
+                    <h3 class="about-heading">A Cars Online we consider ourselves a part of the big automobile
+                        community. We service all makes and models and take pride in every repair.</h3>
+                    <p class="about-para py-2">When it comes to repairing or doing checkups on your car’s, all our team
+                        combined has almost a century of practical experience. We aim to make our service as reasonably
+                        priced as possible. That’s why we cut on all unessential business
+                        expenses.
+                    </p>
+                    <div class="row">
+                        <h4 class="col-md-12 d-flex justify-content-center py-2">WHY CHOOSE US</h4>
+                        <div class="col-md-6">
+                            <ul>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i> FREE Loaner Cars</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>FREE Shuttle Service</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Collision repair</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Air conditioning</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Te Dent repair</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Vehicle diagnostics</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Paint scratch repair</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Glass replacement</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Tire installation</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Valet service</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Wheel alinment</li>
+                                <li class="fs"><i class="fa fa-check px-2 color"></i>Brake repair</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center"  data-aos="zoom-in-up">
+                    <img src="images/about-img.jpg" alt="" class="img-fluid rounded" style="height: 500px;">
+                </div>
+            </div>
+        </div>
+        <section class="section setcolor py-4 my-4" id="trigger">
+            <div class="container">
+                <div class="row text-center my-5">
+                    <div class="col-md-3 col-sm-12 my-3" data-aos="zoom-in-up">
+                        <h4 class="color about-info" style="font-size: 40px;" data-number="600">0</h4>
+                        <p class="white">Happy clients</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 my-3" data-aos="zoom-in-down">
+                        <h4 class="color about-info" style="font-size: 40px;" data-number="1000">0</h4>
+                        <p class="white">Succesful Repairs</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 my-3" data-aos="zoom-in-up">
+                        <h4 class="color about-info" style="font-size: 40px;" data-number="80">0</h4>
+                        <p class="white">Proffesional Staff</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 my-3" data-aos="zoom-in-down">
+                        <h4 class="color about-info" style="font-size: 40px;" data-number="1200">0</h4>
+                        <p class="white">Tools For Repairing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- about section end -->
+
+    <!-- Service Section Start -->
+
+    <section class="section py-5" id="services">
+        <div class="container my-4">
+            <div class="text-center mx-auto my-4">
+                <h2 class="py-4 ">Our Services</h2>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-up">
+                    <div class="image">
+                        <img src="images/Engine.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Engine Repair
+                            </p>
+                            <a href="EnginePage.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-up">
+                    <div class="image">
+                        <img src="images/glassReplacement.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Car Windshield
+                            </p>
+                            <a href="WindSheild.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-up">
+                    <div class="image">
+                        <img src="images/Oilfilter.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Oil Filter
+                            </p>
+                            <a href="oilfilter.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-down">
+                    <div class="image">
+                        <img src="images/coolant.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Engine Coolant
+                            </p>
+                            <a href="coolent.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-down">
+                    <div class="image">
+                        <img src="images/battery.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Battery service
+                            </p>
+                            <a href="Battery.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-down">
+                    <div class="image">
+                        <img src="images/AirConditioner.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Air Conditioner Service
+                            </p>
+                            <a href="Aircondition.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-up">
+                    <div class="image">
+                        <img src="images/car-suspension-13709974.jpeg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Suspension Service
+                            </p>
+                            <a href="Suspension.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-up">
+                    <div class="image">
+                        <img src="images/car-diagnostic-test.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Diagnostics Service
+                            </p>
+                            <a href="car-diagnostic.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-up">
+                    <div class="image">
+                        <img src="images/dent-repair.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Dent/Repair Service
+                            </p>
+                            <a href="Dent.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-down">
+                    <div class="image">
+                        <img src="images/router.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Brake Rotors Service
+                            </p>
+                            <a href="router.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-down">
+                    <div class="image">
+                        <img src="images/Wheel-Alignment.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Wheel Alignment
+                            </p>
+                            <a href="wheelalignment.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2" data-aos="fade-down">
+                    <div class="image">
+                        <img src="images/tyrereplace.jpg" class="img-fluid" alt="">
+                        <div class="service-over d-flex flex-column">
+                            <p class="service-para text-center" style="font-size: 24px;">
+                                Tyre Replacement
+                            </p>
+                            <a href="tyre.html" class="service-arrow">Learn More<i
+                                    class="fa fa-long-arrow-right service-icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section end -->
+
+    <!-- question section start-->
+
+    <section class="my-4 section">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6 col-sm-12" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <h3 class="py-4 text-center set-heading">Our Mission </h3>
+                    <h3 class="about-heading">We offer a full range of garage services to vehicle owners located in
+                        Tucson area. All mechanic services are performed by highly qualified mechanics. We can handle
+                        any car problem.</h3>
+                    <p class="about-para py-2">We offer a full range of garage services to vehicle owners in Tucson. Our
+                        professionals know how to handle a wide range of car services. Whether you drive a passenger car
+                        or medium sized truck or SUV, our mechanics strive to ensure
+                        that your vehicle will be performing at its best before leaving our car shop.</p>
+                </div>
+                <div class="col-md-6 col-sm-12" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <h3 class="py-4 text-center set-heading">Popular Question </h3>
+                    <div id="accordion">
+                        <div class="card cards">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                    Should I consider using synthetic motor oil?
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    Synthetic engine oils are produced through a synthesis process that takes very small
+                                    molecules and assembles them into larger designer molecules with premium lubricating
+                                    properties.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card cards">
+                            <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                    What parts should be replaced at what intervals?
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    You should follow a car maintenance plan, you can help prevent major problems before
+                                    they occur. Not only working to a service plan, but also sticking to a detailed
+                                    record of your car’s maintenance history can definitely maintain your vehicles
+                                    value,
+                                    too.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card cards">
+                            <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                    How do I keep track of routine maintenance?
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    To maximize the life and performance of your vehicle, here is a list of items you
+                                    should check depending on the time and season. Some of these parts of your vehicle
+                                    should be checked regularly, and others only in the long run. Be sure to follow your
+                                    vehicle’s
+                                    maintenance schedule and service interval record.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- question section end-->
+
+    <!-- welcome section start -->
+
+    <section class="section setcolor py-5 my-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6" data-aos="fade-down">
+                    <h3 class="py-4 text-warning"> Welcome To CarCare WorkShop</h3>
+                    <p class="about-para text-white bf-style">With four branches in the country and over 1000 trained
+                        automobile professionals on our team, Workshop Plus is a pioneer in the field of automobile
+                        services and repairs. This is the place where professionalism, quality customer service
+                        and affordability come together to help you, the customer.
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center" data-aos="fade-up">
+                    <div class="o">
+                        <img src="images/img1-min.jpg" alt="" width="400px" class="img-fluid animate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- welcome section end-->
+
+    <!-- certified service start -->
+
+    <section class="section py-5 my-5 image-set">
+        <div class="container">
+            <div class="text-center mx-auto my-4">
+                <h3 class="py-4 set-heading" style="font-weight: 600;">WHY CHOOSE CERTIFIED SERVICE?</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-down">
+                    <div class="card cards">
+                        <div class="card-body certified-body">
+                            <i class="fa fa-id-card-o certified-icon my-4" aria-hidden="true"></i>
+                            <h4 class="card-title setcolor-sertified">ESTIMATES</h4>
+                            <p class="card-text setcolor-sertified">We are the service that estimates fairly the issues
+                                with the car and gives you the precise help you need to make your car safe!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card cards">
+                        <div class="card-body certified-body">
+                            <i class="fa fa-link certified-icon my-4" aria-hidden="true"></i>
+                            <h4 class="card-title setcolor-sertified">TRUSTED</h4>
+                            <p class="card-text setcolor-sertified">Lots of satisfied clients return to our certified
+                                service to get preventative maintenance or get help from our skilled car mechanics!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-down">
+                    <div class="card cards">
+                        <div class="card-body certified-body">
+                            <i class="fa fa-check-circle certified-icon my-4" aria-hidden="true"></i>
+                            <h4 class="card-title setcolor-sertified">GUARANTEES</h4>
+                            <p class="card-text setcolor-sertified">We guarantee the quality of the work performed.
+                                That’s why we’re ready to solve any problem that arose again for free!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- certified service end -->
+
+
+    <!-- testimonials section start -->
+
+    <section class="section py-5 my-5">
+        <div class="container">
+            <div class="text-center mx-auto my-3">
+                <h2 class="py-4 ">Testimonials</h2>
+            </div>
+            <h3 class="text-center h-bold pb-4">Whats Our Client Says</h3>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-item-center flex-column" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card p-4 card-border text-center">
+                                    <div class="body">
+                                        <div class="card-text">
+                                            <p class="about-para client-style text-justify">I do oil changes regularly
+                                                here, as the car needs the oil changed in order to work properly. The
+                                                workers are polite and they really know what they do. I'm also satisfied
+                                                with the prices here!
+                                            </p>
+                                        </div>
+                                        <div class="rating px-3 py-3">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-title px-3">
+                                            <h5>William Hill</h5>
+                                            <p style="font-style:italic;">26 March, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card p-4 card-border text-center">
+                                    <div class="body">
+                                        <div class="card-text">
+                                            <p class="about-para  client-style text-justify">I had a fuel injection
+                                                issue, and that's why I turned to this service! They fixed everything
+                                                and even washed my car for free! I’m glad that I went there, the people
+                                                working there also gave me warranty.
+                                            </p>
+                                        </div>
+                                        <div class="rating  px-3 py-3">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-title px-3">
+                                            <h5>Richard Smith</h5>
+                                            <p style="font-style:italic;">1 March, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card p-4 card-border text-center">
+                                    <div class="body">
+                                        <div class="card-text">
+                                            <p class="about-para  client-style text-justify">I had a pre-purchase
+                                                inspection on a Mazda. I was looking to buy it and they let me bring it
+                                                in on a Saturday with no appoint. Great guys! I recommend this service
+                                                to everyone who looks for quality!
+                                            </p>
+                                        </div>
+                                        <div class="rating px-3 py-3">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-title px-3">
+                                            <h5>Brian Murdoch</h5>
+                                            <p style="font-style:italic;">26 April, 2022</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card p-4 card-border text-center">
+                                    <div class="body">
+                                        <div class="card-text">
+                                            <p class="about-para client-style text-justify">I needed an oil change and
+                                                checkup on my car. Fraks got me in right away and gave me a ride to and
+                                                from my office. I'm also impressed with the informative email stating
+                                                exactly what was done and recommendations
+                                            </p>
+                                        </div>
+                                        <div class="rating px-3 py-3">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-title px-3">
+                                            <h5>Brian Murdoch</h5>
+                                            <p style="font-style:italic;">14 May, 2022</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <img src="images/testimonials.jpg" alt="testimonials" class="img-fluid" style="width: 400px;">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- testimonials section end -->
+
+    <!-- our team section start -->
+
+    <section class="section py-5 my-5">
+        <div class="container">
+            <div class="text-center mx-auto my-5">
+                <h2 class="py-4 mb-4">Our Team</h2>
+            </div>
+            <div class="row">
+                <div class="swiper mySwiper" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-2-1.jpg" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>Sachin Chobey</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Senior Mechanic</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-3-1.jpg" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>Tony Stark</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Junior Mechanic</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-4-1.webp" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>David Warner</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Worker</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-6-1.webp" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>Liam Livingstone</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Tester</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-8.webp" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>Dale Stayn</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Body Master</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-2-1.jpg" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>Trent Boult</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Worker</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-5-1.webp" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>Williamson</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Painter</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card car-washing">
+                                <img src="images/team-7.webp" alt="" class="img-fluid">
+                                <div class="washing-overlay d-flex">
+                                    <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                            class="fa-brands fa-instagram service-icon"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook service-icon"></i></a>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fa-brands fa-twitter service-icon"></i></a>
+                                </div>
+                                <div class="card-body text-center setcolor text-white">
+                                    <div class="card-title">
+                                        <h3>Aiden Markrum</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Dispatch Officer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our team section end -->
+
+
+    <!-- Washing section start -->
+
+    <section class="section  py-5 my-5 bg">
+        <div class="text-center mx-auto my-4">
+            <h3 class="py-4 set-heading h-bold" style="font-weight: 600; font-size: 40px;">Washing and <span
+                    style="color: #ffc107;">Cleaning!</span></h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 style="font-size: 40px;">Professional washing and cleaning of your car.</h3>
+                    <p class="about-para my-4">Not only does regular detailing extend the life of your car, but it
+                        actually adds to its value. Car detailing is extremely effective in cases where cars are parked
+                        outside, subject to the cruelties of the environment, such as sand,
+                        bird droppings, rain and more – everything that can erode a vehicle’s good looks by damaging the
+                        protective clear coat and eventually consuming the layers of paint. Auto detailing is for anyone
+                        who wants to get the most out of
+                        their vehicle, and keep it looking great for its expected lifetime and beyond</p>
+                    <h3 style="font-size: 40px;" class="py-3">It’s Time to Come and Clean Your Car</h3>
+                    <ul>
+                        <li class="" style="font-size: 18px;"><i class="fa fa-check px-2 color"
+                                style="font-size: 20px;"></i> We’re professional and certified car washers</li>
+                        <li class="" style="font-size: 18px;"><i class="fa fa-check px-2 color"
+                                style="font-size: 20px;"></i>We use quality material to clean your cars</li>
+                        <li class="" style="font-size: 18px;"><i class="fa fa-check px-2 color"
+                                style="font-size: 20px;"></i>We care about our customers satisfaction</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <img src="images/car-wash-1920x930.webp" alt="car wash" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-4 my-4" data-aos="fade-down">
+                    <div class="card car-washing">
+                        <img src="images/washing1.jpeg" alt="" class="img-fluid">
+                        <div class="washing-overlay d-flex flex-column">
+                            <h3>car washing</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3>Full Service Wash</h3>
+                            <p class="py-2">Car Wash is offering a wide range of washing services to the car owners
+                                including the top wash to entire internal detailing or whether a paint protection
+                                treatment...
+                            </p>
+                        </div>
+                    </div>
+                    <a href="" class="service-arrow arrow"><i class="fa fa-long-arrow-right service-icons"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-4 my-4"  data-aos="fade-up">
+                    <div class="card car-washing">
+                        <img src="images/detail1.jpg" alt="" class="img-fluid">
+                        <div class="washing-overlay d-flex flex-column">
+                            <h3>Auto Detailing</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3>Auto Detailing</h3>
+                            <p class="py-2">Car detailing and car washing are two different things but with the same
+                                motive which is to precisely and intricately clean your car washing the exteriors of
+                                your vehicle.</p>
+                        </div>
+                    </div>
+                    <a href="" class="service-arrow arrow"><i class="fa fa-long-arrow-right service-icons"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-4 my-4" data-aos="zoom-in-up">
+                    <div class="card car-washing">
+                        <img src="images/how-to-clean-car-interior-4775265-10-3ae26ac90ed1419dab07ea0b9ec06e8a.jpg"
+                            alt="" class="img-fluid">
+                        <div class="washing-overlay d-flex flex-column">
+                            <h3>Express Interior</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3>Express Interior</h3>
+                            <p class="py-2">Effectively removes stains and dirt from the car's interior surface.
+                                Preserves paint and plastic finish for a longer duration than normal. Leaves no greasy
+                                residue.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="" class="service-arrow arrow"><i class="fa fa-long-arrow-right service-icons"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Washing section end -->
+
+    <!-- Our special offers start -->
+
+    <section class="section py-5 my-5">
+        <div class="text-center mx-auto my-4">
+            <h3 class="py-4 set-heading h-bold" style="font-weight: 600; font-size: 40px;">Our Special <span
+                    style="color: #ffc107;">Offers</span></h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 my-2 d-flex align-item-center justify-content-center" data-aos="fade-up">
+                    <img src="images/home-banner-bg-1.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 my-2 d-flex align-item-center justify-content-center" data-aos="fade-down">
+                    <img src="images/home-banner-bg-2.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 my-2 d-flex align-item-center justify-content-center" data-aos="fade-up">
+                    <img src="images/home-banner-bg-3.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our special offers end -->
+
+    <!-- contact us section start -->
+
+    <section class="section">
+        <div class="container">
+            <div class="text-center mx-auto my-3">
+                <h2 class="py-4 ">Contact Us </h2>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center py-5">
+                <div class="col-md-10"  data-aos="zoom-in-up">
+                    <form id="cform" method="post">
+                        <div class="form-groups">
+                            <input type="text" class="form-control gap-form" placeholder="Enter Your Name" id="cname">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-groups">
+                            <input type="email" class="form-control gap-form" placeholder="Enter Email" id="cemail">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-groups">
+                            <input type="password" class="form-control gap-form" placeholder="Enter password" id="pass">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-groups">
+                            <input type="password" class="form-control gap-form" placeholder="Enter confirm password"
+                                id="cpass">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-groups">
+                            <input type="number" class="form-control gap-form" placeholder="Enter Number" id="cnum">
+                            <small style="color: red;"></small>
+                        </div>
+                        <div class="form-groups">
+                            <textarea class="form-control" rows="5" id="ccomment" placeholder="Message"></textarea>
+                            <small style="color: red;"></small>
+                        </div>
+                        <button type="submit" class="btn btn-warning d-block mx-auto btn-lg mt-5">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.314774349837!2d76.6635737144616!3d30.73765849244762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefea8830e6b7%3A0xd189f888610d81af!2sChajju%20Majra%20Rd%2C%20Model%20Town%2C%20Kharar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1654099712523!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact us section end -->
+
+
+    <!-- Footer section start -->
+
+    <section class="section footer setcolor py-5">
+        <div class="container-fluid">
+            <div class="row py-4 d-flex align-items-center">
+                <div class="col-md-3 py-3">
+                    <h3 style="color: #ffc107;">Car Care</h3>
+                </div>
+                <div class="col-md-3 d-flex py-3" data-aos="zoom-in-down">
+                    <div class="px-4">
+                        <i class="fa-solid fa-phone footer-icon"></i>
+                    </div>
+                    <div>
+                        <h3 style="color: white; font-size: 23px;">Phone:</h3>
+                        <p style="color: rgba(153, 136, 136, 0.877);">12 (845) 3342 78 92</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex py-3" data-aos="zoom-in-down">
+                    <div class="px-4">
+                        <i class="fa-solid fa-location-dot footer-icon"></i>
+                    </div>
+                    <div>
+                        <h3 style="color: white; font-size: 23px;">Location:</h3>
+                        <p style="color: rgba(153, 136, 136, 0.877);">Chajju Majra Kharar, Punjab</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex py-3" data-aos="zoom-in-down">
+                    <div class="px-4">
+                        <i class="fa-solid fa-clock footer-icon"></i>
+                    </div>
+                    <div>
+                        <h3 style="color: white; font-size: 23px;">Open:</h3>
+                        <p style="color: rgba(153, 136, 136, 0.877);">Mon.-Sat. 9:00AM - 10:00PM</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h3 style="color: white; font-size: 23px;" class="py-3">About Us</h3>
+                    <p style="color: rgba(153, 136, 136, 0.877);">A Cars Online we consider ourselves a part of the big
+                        automobile community. We service all makes and models and take pride in every repair.</p>
+                    <div class="d-flex py-4" data-aos="zoom-in-up">
+                        <a href="https://www.instagram.com/carcare581/" target="_blank"><i
+                                class="fa-brands fa-instagram Footer-icons"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook Footer-icons"></i></a>
+                        <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                class="fa-brands fa-twitter Footer-icons"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i
+                                class="fa-brands fa-linkedin Footer-icons"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3 style="color: white; font-size: 23px;" class="py-3">Quick Links</h3>
+                    <ul class="">
+                        <li><a href="index.html" class="a">Home</a></li>
+                        <li><a href="About.html" class="a">About</a></li>
+                        <li><a href="Service.html" class="a">Services</a></li>
+                        <li><a href="Team.html" class="a">Team</a></li>
+                        <li><a href="contact.html" class="a">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 style="color: white; font-size: 23px;" class="py-3">Our Services</h3>
+                    <ul class="">
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Engine Repair</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Car Windshield Maintenance</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Oil Filter</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Engine Coolant</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Air Conditioner Service</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Tyre Replacement</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="mt-5 py-3">
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Suspension Service</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Diagnostics Service</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Dent/Repair Service</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Brake Rotors Service</li>
+                        <li style="color: rgba(153, 136, 136, 0.877);" class="a"><i
+                                class="fa fa-check px-2 color"></i>Wheel Alignment</li>
+                    </ul>
+                </div>
+            </div>
+            <h3 style="font-size: 17px; color: rgba(153, 136, 136, 0.877);" class="text-center py-3">Copyright © 2022
+                <span style="color: #ffc107;">Car Care</span>. All Rights Reserved. | Website design by <span
+                    style="color: #ffc107;">Dalbir and Sukhpreet</span>
+            </h3>
+        </div>
+    </section>
+
+    <!-- Footer section end -->
+
+    <div class="top-button">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+
+    <!-- JavaScript start -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- scroll animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    </script>
+    <script type="text/javascript">
+        emailjs.init('gVFKiR8PcpPJSbcsI')
+    </script>
+    <script>
+        const loader = document.getElementById("loader")
+        window.addEventListener("load", function () {
+            loader.style.display = "none"
+        })
+    </script>
+    <script>
+        // typed script start
+
+        var typed = new Typed(".auto-style", {
+            strings: ["Repair Of your Car", "During The Day", "With A Guarantee", "Best Services For You", "Provide Best Offers", "Best Quality Repair", "Efficient Technic"],
+            typeSpeed: 100,
+            BackSpeed: 140,
+            loop: true
+        })
+
+        // typed script end
+
+        // navbar toggle java script start
+
+        const menu = document.getElementById("menu")
+        const icon = document.querySelector(".mobile-navbar-btn")
+
+        icon.addEventListener("click", function () {
+            menu.classList.toggle("show")
+        })
+
+        // navbar toggle java script end
+
+        // Appoinment form valiadtion check start
+
+        const form = document.getElementById("form")
+        const name = document.getElementById("name")
+        const num = document.getElementById("num")
+        const modal = document.getElementById("modal")
+
+        form.addEventListener("submit", (event) => {
+            event.preventDefault()
+            validated()
+            sendEmail1()
+        })
+        const senData1 = (nameval, srate1, count1) => {
+            if (srate1 === count1) {
+                swal("Appoinment Booked  " + nameval, "", "success");
+            }
+        }
+        const successvalidate1 = (nameval) => {
+            let formg1 = document.querySelectorAll(".form-group")
+            var count1 = formg1.length - 1
+            for (var i = 0; i < formg1.length; i++) {
+                console.log(formg1[i])
+                if (formg1[i].className === "form-group success error") {
+                    var srate1 = 0 + i;
+                     console.log(srate1)
+                    senData1(nameval, srate1, count1)
+                } else {
+                    return false
+                }
+            }
+
+        }
+        const validated = () => {
+            const nameval = document.getElementById("name").value
+            const numval = document.getElementById("num").value
+            const modalval = document.getElementById("modal").value
+
+            if (nameval == "") {
+                setErrorMsg(name, "name not valid")
+            } else if ((nameval.length <= 3) || (nameval.length > 20)) {
+                setErrorMsg(name, "input length b/w 3 to 20")
+            } else if (!isNaN(nameval)) {
+                setErrorMsg(name, "only characters are allowed")
+            } else {
+                setSuccesMsg(name)
+                setErrorMsg(name, "")
+            }
+
+
+            if (numval == "") {
+                setErrorMsg(num, "num not valid")
+            } else if (numval.length < 10) {
+                setErrorMsg(num, "Not a valid number")
+            } else {
+                setSuccesMsg(num)
+                setErrorMsg(num, "")
+            }
+
+
+            if (modalval == "") {
+                setErrorMsg(modal, "input not valid")
+            } else if (modalval.length < 4) {
+                setErrorMsg(modal, "Not a valid input")
+            } else {
+                setSuccesMsg(modal)
+                setErrorMsg(modal, "")
+            }
+            successvalidate1(nameval)
+        }
+
+        function setErrorMsg(input, errormsg) {
+            const formgroup = input.parentElement
+            const small = formgroup.querySelector("small")
+            formgroup.classList.add("error")
+            small.innerHTML = errormsg
+        }
+
+        function setSuccesMsg(input) {
+            const formgroup = input.parentElement
+            formgroup.className = "form-group success"
+        }
+        const sendEmail1 = (params) => {
+           var tempparams = {
+               from_name: ` ${document.getElementById("name").value}`,
+               to_name : `Mobile No : ${document.getElementById("num").value}`,
+               message : ` Car model No : ${document.getElementById("modal").value}`
+           };
+           emailjs.send('service_wpuujqh','template_iixcjb8',tempparams).then(function(res){
+               console.log("success",res.status)
+           })
+        }
+
+        // Appoinment form valiadtion check end
+
+        const trigger = document.getElementById("trigger")
+        const observe = new IntersectionObserver((entry, observer) => {
+            const ent = entry[0]
+            if (!ent.isIntersecting) return;
+
+            // about section start javascript
+
+            const about = document.querySelectorAll(".about-info")
+            const speed = 40
+            about.forEach((elem) => {
+                const updateNumber = () => {
+                    const targetNumber = parseInt(elem.dataset.number)
+                    const initialNumber = parseInt(elem.innerText)
+                    const NewNumber = Math.trunc(targetNumber / speed)
+                    if (initialNumber < targetNumber) {
+                        elem.innerText = `${initialNumber + NewNumber}+`
+                        setTimeout(updateNumber, 100)
+                    }
+                }
+                updateNumber()
+            })
+            observe.unobserve(trigger)
+        }, {
+            root: null,
+            threshold: 0
+        })
+        observe.observe(trigger)
+
+        const appoinemt = document.querySelector(".appoinment")
+        const set = new IntersectionObserver((entries, observer) => {
+            const ents = entries[0]
+
+
+            !ents.isIntersecting ? document.body.classList.add("sticky") : document.body.classList.remove("sticky")
+        }, {
+            root: null,
+            threshold: 0
+        })
+        set.observe(appoinemt)
+
+        // swiper slider javascript
+
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 1,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+
+            },
+            autoplay: {
+                delay: 3100,
+                disableOnInteraction: false
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
+
+        // Contact us form valiadtion
+
+        const cform = document.getElementById("cform")
+        const cname = document.getElementById("cname")
+        const cnum = document.getElementById("cnum")
+        const cemail = document.getElementById("cemail")
+        const pass = document.getElementById("pass")
+        const cpass = document.getElementById("cpass")
+        const ccomment = document.getElementById("ccomment")
+
+        cform.addEventListener("submit", (event) => {
+            event.preventDefault()
+            formvalidated()
+            sendEmail()
+        })
+
+        const senData = (cnameval, srate, count) => {
+            if (srate === count) {
+                swal("Message Send", "", "success");
+            }
+        }
+        const successvalidate = (cnameval) => {
+            let formg = document.querySelectorAll(".form-groups")
+            var count = formg.length - 1
+            for (var i = 0; i < formg.length; i++) {
+                // console.log(formg[i])
+                if (formg[i].className === "form-groups success error") {
+                    var srate = 0 + i;
+                    //  console.log(srate)
+                    senData(cnameval, srate, count)
+                } else {
+                    return false
+                }
+            }
+
+        }
+
+        const formvalidated = () => {
+            const cnameval = document.getElementById("cname").value
+            const cnumval = document.getElementById("cnum").value
+            const cemailval = document.getElementById("cemail").value
+            const passval = document.getElementById("pass").value
+            const cpassval = document.getElementById("cpass").value
+            const ccommentval = document.getElementById("ccomment").value
+
+
+            if (cnameval == "") {
+                formsetErrorMsg(cname, "name not valid")
+            } else if ((cnameval.length <= 3) || (cnameval.length > 20)) {
+                formsetErrorMsg(cname, "input length b/w 3 to 20")
+            } else if (!isNaN(cnameval)) {
+                formsetErrorMsg(cname, "only characters are allowed")
+            } else {
+                formsetSuccesMsg(cname)
+                formsetErrorMsg(cname, "")
+            }
+
+            if (cnumval == "") {
+                formsetErrorMsg(cnum, "num not valid")
+            } else if (cnumval.length < 10) {
+                formsetErrorMsg(cnum, "Not a valid number")
+            } else {
+                formsetSuccesMsg(cnum)
+                formsetErrorMsg(cnum, "")
+            }
+
+            if (cemailval == "") {
+                formsetErrorMsg(cemail, "Email is Empty")
+            } else {
+                formsetSuccesMsg(cemail)
+                formsetErrorMsg(cemail, "")
+            }
+
+            if (passval == "") {
+                formsetErrorMsg(pass, "Password is empty")
+            } else if ((passval.length <= 3) || (passval.length > 8)) {
+                formsetErrorMsg(pass, "Password is length bw 4-8")
+            } else {
+                formsetSuccesMsg(pass)
+                formsetErrorMsg(pass, "")
+            }
+
+            if (cpassval == "") {
+                formsetErrorMsg(cpass, "Password is empty")
+            } else if (passval != cpassval) {
+                formsetErrorMsg(cpass, "Password not matching")
+            } else {
+                formsetSuccesMsg(cpass)
+                formsetErrorMsg(cpass, "")
+            }
+
+            if (ccommentval == "") {
+                formsetErrorMsg(ccomment, "Give Your FeedBack")
+            } else {
+                formsetSuccesMsg(ccomment)
+                formsetErrorMsg(ccomment, "")
+
+            }
+            successvalidate(cnameval)
+        }
+
+        function formsetErrorMsg(input, errormsg) {
+            const formgroups = input.parentElement
+            const small = formgroups.querySelector("small")
+            formgroups.classList.add("error")
+            small.innerHTML = errormsg
+        }
+
+        function formsetSuccesMsg(input, errormsg) {
+            const formgroups = input.parentElement
+            formgroups.className = "form-groups success"
+        }
+
+        const sendEmail = (params) => {
+           var tempparams = {
+               from_name:document.getElementById("cemail").value,
+               to_name : document.getElementById("cname").value,
+               message : document.getElementById("ccomment").value
+           };
+           emailjs.send('service_wpuujqh','template_iixcjb8',tempparams).then(function(res){
+               console.log("success",res.status)
+           })
+        }
+
+        // top button script
+
+        const topbutton = document.querySelector(".top-button")
+
+        window.addEventListener("scroll", function () {
+            if (window.pageYOffset > 100) {
+                topbutton.classList.add("setting")
+            } else {
+                topbutton.classList.remove("setting")
+            }
+        })
+        AOS.init({
+          duration: 1500,
+      });
+    </script>
+</body>
+
+</html>
